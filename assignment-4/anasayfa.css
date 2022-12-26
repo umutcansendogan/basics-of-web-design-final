@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+ #section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+  section img{
+    transition: 0.5s;
+  }
+  section img:hover
+  {
+   transform: scale(1.1);
+  }
+  #logokismi
+  {
+    width: 13%;
+    height: 200px;
+    float: left;
+  }
+  #logoyanı
+  {
+   width: 87%;
+   height: 200px;
+   float: right;
+  }
+  #seçenekler
+  {
+    width: 20%;
+    height: 700px;
+    float: left;
+  }
+  #tanimlar
+  {
+    width: 80%;
+    height: 700px;
+    float: right;
+  }
+  #kisalogolar
+  {
+    width: 100%;
+    height: 300px;
+    clear:both;
+  }
+  footer img
+  {
+    float:left;
+    margin-top: 20px;
+    padding: 50 250px;
+  }
+  #başlangiçyazisi
+  {
+    float:inline-start;
+  }
+  #resimyazı1
+  {
+    float:right;
+    margin-top: -250px;
+    padding: 200 400px;
+  }
+  #okişaretiboyut
+  {
+    float: left;
+    margin-top: auto;
+    padding:0px;
+  }
+nav{
+    position: absolute;
+    top: 34%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    background: orangered;
+    width: 18%;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 40px;
+}
+nav label{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    cursor: pointer;
+}
+.button i{
+    float: right;
+    line-height: 35px;
+}
+nav ul{
+    position: absolute;
+    background: orangered;
+    list-style: none;
+    top:70px;
+    left: 0;
+    width: 100%;
+    border-radius: 50px;
+    display: none;
+}
+[id^=btn]:checked +ul{display: block;}
+nav.menu::before{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: orangered;
+    right: 20px;
+    top: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+nav ul li {
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0px 22px;
+    border-bottom: 1px solid orangered;
+}
+nav ul li label{
+    font-size: 18px;
+}
+nav ul li a{
+    color:orangered;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+nav ul ul{
+    position: static;
+}
+nav ul ul li{
+    line-height: 30px;
+    padding-left: 30px;
+    border-bottom: none;
+}
+nav ul ul li a{
+    color:#e6e6e6;
+    font-size: 17px;
+}
+nav  ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+nav ul li a:hover,nav ul li label:hover{
+    color:rgb(0, 255, 13)
+}
+nav ul li i{
+    font-size: 25px;
+    float:right;
+    margin-top: -50px;
+    padding: 15 100px;
+}
+
+input{
+    display: none;
+}
+h1
+{
+  text-align: center;
+  color: orangered;
+}
+h2
+{
+  text-align: center;
+  color: orangered;
+}
+h3
+{
+    text-align: center;
+    color: orangered;
+}
+h4
+{
+    text-align: center;
+    color: orangered;
+}
+b
+{
+    color:rgb(0, 136, 255);
+}
