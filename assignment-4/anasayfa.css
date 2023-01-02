@@ -6,6 +6,7 @@
 }
  #section{
     width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
  }
@@ -109,7 +110,6 @@ nav.menu::before{
     background: orangered;
     right: 20px;
     top: -10px;
-    transform: rotate(45deg);
     z-index: -1;
 }
 nav ul li {
@@ -181,4 +181,41 @@ h4
 b
 {
     color:rgb(0, 136, 255);
+}
+main img
+{
+  border-radius: 100%;
+  transition: 0.5s;
+  margin: 50px;
+  border: 5px dotted rgb(0, 136, 255);;
+}
+main img:hover
+{
+  border-radius: 0;
+  transform: scale(1.1);
+  border: 5px solid orangered;
+}
+@media screen and (max-width: 768px)
+{
+  #logoyanı
+  {
+    width:100%;
+  }
+  #seçenekler
+  {
+    width:100%;
+  }
+  #tanimlar
+  {
+   width:100%;
+  }
+  #başlangiçyazısı
+  {
+    width: 100%;
+  }
+  #kisalogolar
+  {
+   width: 100%;
+  }
+  
 }
